@@ -5,11 +5,16 @@
 }
 
 
+<<<<<<< HEAD
 @media screen and (max-width:430px) {
     
 }
 @media screen and (max-width:500px) { 
     #main {width:90vw; height: 95vh;
+=======
+@media screen and (max-width:500px) { 
+    #main {width:100vw; height: 100vh;
+>>>>>>> 631b694b041110ac81b50a17e6ec152bcb3857e8
 }
 }
 
