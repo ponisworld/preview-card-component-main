@@ -5,16 +5,11 @@
 }
 
 
-<<<<<<< HEAD
 @media screen and (max-width:430px) {
-    
+ main {max-height:fit-content;}
 }
-@media screen and (max-width:500px) { 
-    #main {width:90vw; height: 95vh;
-=======
-@media screen and (max-width:500px) { 
-    #main {width:100vw; height: 100vh;
->>>>>>> 631b694b041110ac81b50a17e6ec152bcb3857e8
+@media screen and (max-width:500px) {
+    main {width:70vw; height: 95vh;
 }
 }
 
@@ -22,11 +17,10 @@
     * {font-size:14px;}
     body {padding:0;}
     .imageDesktop {display:none;}
-    
-    main {display:grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:60vw; height: 110vh;
-    max-width:80vw;}
 
-    .imageMobile {grid-area:1/ 1/2/2;height:auto;width:100%; 
+    main {display:grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:55vw; height: 85vh;}
+
+    .imageMobile {grid-area:1/ 1/2/2;height:auto;width:100%;
     border-radius:10px 10px 0 0;}
 
     .card {padding:1rem;}
