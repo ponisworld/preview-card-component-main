@@ -23,7 +23,7 @@ main {
     grid-template: 1fr/1fr 1fr;
     background-color: hsl(244, 38%, 16%);
     border-radius:10px;
-    max-width:70vw;
+    max-width:90vw;
 }
 
 .imageDesktop {width:100%;height: 60vh;
