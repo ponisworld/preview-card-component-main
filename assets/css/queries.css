@@ -4,21 +4,26 @@
     .imageMobile { display:none;}
 }
 
+
+@media screen and (max-width:430px) {
+    
+}
+@media screen and (max-width:500px) { 
+    #main {width:90vw; height: 95vh;
+}
+}
+
 @media screen and (max-width:850px) {
     * {font-size:14px;}
+    body {padding:0;}
     .imageDesktop {display:none;}
     
-    main {display:grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:60vw; height: 96vh;
+    main {display:grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:60vw; height: 110vh;
     max-width:80vw;}
 
-    .imageMobile {grid-area:1/ 1/2/2;height:fit-content;width:100%; 
+    .imageMobile {grid-area:1/ 1/2/2;height:auto;width:100%; 
     border-radius:10px 10px 0 0;}
 
     .card {padding:1rem;}
     .attribution {margin:5rem;}
-}
-
-@media screen and (max-width:500px) { 
-    #main {width:90vw; height: 90vh;
-}
 }
