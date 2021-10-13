@@ -15,6 +15,8 @@ background-color: hsl(233, 47%, 7%);;padding: 5rem;display: flex;flex-direction:
 
 h1, h2 span {color:hsl(0, 0%, 100%)}
 
+h2, h2 span {text-align: center;}
+
 main {
     display: inline-grid;
     place-items:center;
@@ -30,3 +32,4 @@ border-radius: 0 10px 10px 0;}
 .card {
     padding: 2rem;
 }
+
