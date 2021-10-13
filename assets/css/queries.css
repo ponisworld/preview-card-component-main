@@ -8,17 +8,17 @@
     * {font-size:14px;}
     .imageDesktop {display:none;}
     
-    main {display:inline-grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:40vw; height: 80vh;
-    min-width:50vw;}
+    main {display:grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:50vw; height: fit-content;
+    max-width:60vw;}
 
-    .imageMobile {grid-area:1/ 1/2/2;height:40vh;width:100%; 
+    .imageMobile {grid-area:1/ 1/2/2;height:fit-content;width:100%; 
     border-radius:10px 10px 0 0;}
 
+    .card {padding:1rem;}
     .attribution {margin:5rem;}
 }
 
-@media screen and (max-width:400px) {
-    main {width:75vw;
-    height:fit-content}
+@media screen and (max-width:500px) { 
+    #main {width:90vw; height: fit-content;
 }
-
+}
