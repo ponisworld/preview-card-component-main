@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width:850px) {
+    .imageMobile { display:none;}
+}
+
+@media screen and (max-width:850px) {
+    * {font-size:14px;}
+    .imageDesktop {display:none;}
+    
+    main {display:inline-grid;background-color: hsl(244, 38%, 16%);grid-template: 1fr 2fr/1fr;width:40vw; height: 80vh;
+    min-width:50vw;}
+
+    .imageMobile {grid-area:1/ 1/2/2;height:40vh;width:100%; 
+    border-radius:10px 10px 0 0;}
+
+    .attribution {margin:5rem;}
+}
+
+@media screen and (max-width:400px) {
+    main {width:75vw;
+    height:fit-content}
+}
+
